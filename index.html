@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="谭浩的个人简历 - 湖北大学集成电路设计与集成系统专业大一学生">
+  <meta name="keywords" content="个人简历,集成电路,湖北大学,电子工程,EDA工具">
+  <meta name="author" content="谭浩">
+  
+  <!-- Open Graph 标签 -->
+  <meta property="og:title" content="谭浩 | 个人简历">
+  <meta property="og:description" content="湖北大学集成电路设计与集成系统专业学生">
+  <meta property="og:type" content="website">
+  
+  <title>谭浩 | 个人简历</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav-brand">
+        <a href="#home" class="nav-logo">谭浩&nbsp;</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="切换菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">首页</a></li>
+        <li><a href="#education" class="nav-link">教育背景</a></li>
+        <li><a href="#projects" class="nav-link">项目经历</a></li>
+        <li><a href="#experience" class="nav-link">实践经历</a></li>
+        <li><a href="#skills" class="nav-link">技能</a></li>
+        <li><a href="#contact" class="nav-link">联系</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+            <span class="theme-icon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 个人信息区 -->
+    <section id="home" class="hero section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img src="./assets/images/avatar.jpg" alt="谭浩" id="avatarImg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="avatar-placeholder" style="display: none;">
+              <span>谭&nbsp;</span>
+            </div>
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-name">&nbsp;谭浩</h1>
+            <p class="hero-title">Hao&nbsp;</p>
+            <p class="hero-subtitle">湖北大学 · 集成电路学院 · 大一学生</p>
+            <div class="hero-badges">
+              <span class="badge">班级班长</span>
+              <span class="badge">副团支书</span>
+              <span class="badge">共青团员</span>
+            </div>
+            <p class="hero-bio">
+              专注于集成电路设计与EDA工具应用，对数字电路设计和芯片验证有浓厚兴趣。
+              具备较强的组织协调能力和团队协作精神，致力于通过实践项目提升专业技能。
+            </p>
+            <p class="hero-objective">
+              <strong>求职意向：</strong>实验室助理
+            </p>
+            <div class="hero-contact">
+              <a href="mailto:1312616873@qq.com" class="contact-link" data-email="1312616873@qq.com">
+                <span class="icon">📧</span>
+                <span class="contact-text">1312616873@qq.com</span>
+              </a>
+              <a href="tel:+8613755165615" class="contact-link">
+                <span class="icon">📱</span>
+                <span class="contact-text">137-5516-5615</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 教育背景区 -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <h2 class="section-title">教育背景</h2>
+        <div class="education-timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">湖北大学</h3>
+              <p class="timeline-subtitle">集成电路设计与集成系统专业 · 本科</p>
+              <p class="timeline-period">2025年9月 - 2029年6月（在读）</p>
+              
+              <div class="timeline-achievements">
+                <h4 class="achievements-title">学业表现</h4>
+                <ul class="achievements-list">
+                  <li>高中阶段曾多次获"优秀团干"、"优秀班干部"校级、"三好学生"（2023-2024学年）</li>
+                </ul>
+              </div>
+              
+              <button class="btn-toggle" data-target="courses-list">相关课程 <span class="toggle-icon">▼</span></button>
+              <ul class="courses-list" id="courses-list" style="display: none;">
+                <li>数字电路与逻辑设计</li>
+                <li>模拟电路基础</li>
+                <li>半导体物理与器件</li>
+                <li>EDA工具应用</li>
+                <li>Verilog HDL编程</li>
+                <li>集成电路工艺</li>
+                <li>信号与系统</li>
+                <li>微电子学基础</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">利川一中&nbsp;</h3>
+              <p class="timeline-subtitle">高中</p>
+              <p class="timeline-period">2022年9月 - 2025年6月</p>
+              <ul class="achievements-list">
+                <li>担任团支书和班长，具备双重管理能力</li>
+                <li>优秀班级毕业生</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目经历区 -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2 class="section-title">项目经历</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">简易半导体二极管特性测试</h3>
+              <span class="project-role">组长</span>
+            </div>
+            <p class="project-type">课程项目 · 小组实验</p>
+            <p class="project-description">
+              作为组长引导小组实验，负责搭建测试电路、使用示波器采集数据，协助撰写实验报告。
+            </p>
+            <div class="project-results">
+              <span class="result-badge">课程优秀评级</span>
+            </div>
+            <div class="project-skills">
+              <span class="skill-tag">电路搭建</span>
+              <span class="skill-tag">示波器使用</span>
+              <span class="skill-tag">数据分析</span>
+              <span class="skill-tag">实验报告</span>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">简易太阳能充电器制作</h3>
+              <span class="project-role">项目负责人</span>
+            </div>
+            <p class="project-type">科技小发明 · 高中阶段</p>
+            <p class="project-description">
+              主导设计并制作简易太阳能充电器，整合太阳能电池板、充电管理电路和储能模块，实现高效能量转换。
+            </p>
+            <div class="project-results">
+              <span class="result-badge result-gold">校级科技节一等奖</span>
+            </div>
+            <div class="project-skills">
+              <span class="skill-tag">电路设计</span>
+              <span class="skill-tag">硬件制作</span>
+              <span class="skill-tag">项目管理</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 校园实践经历区 -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <h2 class="section-title">校园实践经历</h2>
+        <div class="experience-timeline">
+          <div class="experience-item">
+            <div class="experience-period">
+              <span class="period-date">2025.09 - 至今</span>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">湖北大学集成电路设计与集成系统专业6班班长</h3>
+              <div class="experience-details">
+                <div class="detail-item">
+                  <h4 class="detail-title">班级管理</h4>
+                  <p class="detail-text">
+                    统筹班级日常管理，建立"班委-宿舍长"联动机制，负责考勤、活动策划及信息传达。
+                    <strong class="highlight">班级出勤率保持98%以上</strong>。
+                  </p>
+                </div>
+                <div class="detail-item">
+                  <h4 class="detail-title">评优评先工作</h4>
+                  <p class="detail-text">
+                    负责班级奖学金评定、评优评先统筹工作，制定公平透明的评选细则，
+                    协助辅导员完成<strong class="highlight">15项荣誉申报审核</strong>，
+                    <strong class="highlight">零投诉零失误</strong>，获师生一致认可。
+                  </p>
+                </div>
+              </div>
+              <div class="experience-skills">
+                <span class="skill-tag">组织协调</span>
+                <span class="skill-tag">团队管理</span>
+                <span class="skill-tag">沟通能力</span>
+                <span class="skill-tag">执行力</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 技能区 -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title">个人技能</h2>
+        
+        <!-- 技术技能 -->
+        <div class="skills-category">
+          <h3 class="category-title">技术技能</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Verilog HDL</span>
+                <span class="skill-level">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Python</span>
+                <span class="skill-level">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">C/C++</span>
+                <span class="skill-level">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Cadence EDA</span>
+                <span class="skill-level">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Synopsys工具</span>
+                <span class="skill-level">65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 65%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">MATLAB</span>
+                <span class="skill-level">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EDA工具 -->
+        <div class="skills-category">
+          <h3 class="category-title">EDA工具</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Cadence Virtuoso</span>
+            <span class="skill-tag">Synopsys Design Compiler</span>
+            <span class="skill-tag">Mentor Graphics</span>
+            <span class="skill-tag">Xilinx Vivado</span>
+            <span class="skill-tag">Quartus Prime</span>
+            <span class="skill-tag">ModelSim</span>
+          </div>
+        </div>
+
+        <!-- 软技能 -->
+        <div class="skills-category">
+          <h3 class="category-title">软技能</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">英语 CET-6</span>
+            <span class="skill-tag">团队协作</span>
+            <span class="skill-tag">问题解决</span>
+            <span class="skill-tag">学习能力</span>
+            <span class="skill-tag">文档编写</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 社交卡片区 -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title">联系方式</h2>
+        <div class="social-cards">
+          <a href="https://github.com/tanhao" target="_blank" rel="noopener noreferrer" class="social-card">
+            <div class="social-icon">🔗</div>
+            <h3 class="social-title">GitHub</h3>
+            <p class="social-desc">查看我的代码仓库</p>
+            <span class="social-link">github.com/tanhao</span>
+          </a>
+          
+          <a href="暂无" target="_blank" rel="noopener noreferrer" class="social-card">
+          <div class="social-icon">💼</div>
+            <h3 class="social-title">LinkedIn</h3>
+            <p class="social-desc">专业网络连接</p>
+            <span class="social-link">linkedin.com/in/tanhao</span>
+          </a>
+          
+          <a href="mailto:1312616873@qq.com" class="social-card" data-email="1312616873@qq.com">
+            <div class="social-icon">📧</div>
+            <h3 class="social-title">Email</h3>
+            <p class="social-desc">发送邮件联系</p>
+            <span class="social-link">1312616873@qq.com</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2024 谭浩. 使用纯 HTML/CSS/JS 构建
+      </p>
+    </div>
+  </footer>
+
+  <!-- 返回顶部按钮 -->
+  <button class="scroll-top" id="scrollTop" aria-label="返回顶部">
+    ↑
+  </button>
+
+  <!-- JavaScript -->
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
+
